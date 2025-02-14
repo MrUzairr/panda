@@ -1,0 +1,23 @@
+{
+  "elements": {
+    "title": "تسجيل الدخول",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "togglePassword": "إظهار/إخفاء كلمة المرور",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "submit": "تسجيل الدخول",
+    "newHere": "جديد هنا؟",
+    "createAccount": "إنشاء حساب جديد",
+    "rememberMe": "تذكرنى"
+  },
+  "validation": {
+    "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+    "invalidPassword": "يجب أن تكون كلمة المرور على الأقل ٨ أحرف."
+  },
+  "feedback": {
+    "formSubmitted": "مرحبا بكم في البنده المكعب"
+  },
+  "common": {
+    "close": "إغلاق"
+  }
+}

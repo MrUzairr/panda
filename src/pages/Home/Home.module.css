@@ -1,0 +1,187 @@
+.authCards {
+  opacity: 0.2;
+}
+
+.HomePageBackgroundImage {
+  background-image: url('./../../assets/images/DarkModeWebBackground.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.authCardsLightModeBackground {
+  background-image: url('./../../assets/images/LightModeLeavesImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.authCardsDarkModeBackground {
+  background-image: url('./../../assets/images/DarkModeLeavesImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 500px) {
+  .HomePageBackgroundImage {
+    background-image: url('./../../assets/images/DarkModeVerticalMobileBackgroundPattern.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 180px) and (max-width: 200px) {
+  .darkModeAuthCards {
+    min-width: 80px;
+    max-width: 90px;
+    height: 80px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 207px;
+    height: 87px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 115px;
+    height: 67px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 118px;
+    height: 65px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 410px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 127px;
+    height: 77px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 127px;
+    height: 67px;
+  }
+}
+@media (min-width: 410px) and (max-width: 449px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 127px;
+    height: 77px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 127px;
+    height: 77px;
+  }
+}
+@media (min-width: 450px) and (max-width: 470px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 127px;
+    height: 77px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 135px;
+    height: 70px;
+  }
+}
+@media (min-width: 470px) and (max-width: 500px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 142px;
+    height: 77px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 145px;
+    height: 68px;
+  }
+  .heroSectionImage {
+    width: 500px;
+    height: 250px;
+  }
+  .heroSectionImage {
+    width: 400000px;
+    height: 250px;
+  }
+}
+@media (min-width: 501px) and (max-width: 800px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 167px;
+    height: 77px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 160px;
+    height: 73px;
+  }
+  .heroSectionImage {
+    margin-top: 89px;
+    width: 350px;
+    height: 180px;
+  }
+}
+@media (min-width: 801px) {
+  .darkModeAuthCards {
+    min-width: 20px;
+    width: 207px;
+    height: 80px;
+  }
+  .lightModeAuthCards {
+    min-width: 20px;
+    width: 207px;
+    height: 80px;
+  }
+  .heroSectionImage {
+    margin-top: 85px;
+    width: 340px;
+    height: 180px;
+  }
+}
+@media (min-width: 850px) and (max-width: 900px) {
+  .heroSectionImage {
+    margin-top: 75px;
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 901px) and (max-width: 950px) {
+  .heroSectionImage {
+    margin-top: 80px;
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 951px) and (max-width: 1000px) {
+  .heroSectionImage {
+    margin-top: 85px;
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1030px) {
+  .heroSectionImage {
+    margin-top: 65px;
+    width: 400px;
+    height: 200px;
+  }
+}
+@media (min-width: 1031px) {
+  .heroSectionImage {
+    margin-top: 35px;
+    width: 400px;
+    height: 200px;
+  }
+}

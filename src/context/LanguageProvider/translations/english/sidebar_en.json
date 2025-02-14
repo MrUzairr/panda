@@ -1,0 +1,19 @@
+{
+  "dashboard": "Dashboard",
+  "userManagement": "User Management",
+  "orderManagement": "Order Management",
+  "purchaseOrders": "Purchase Orders",
+  "grn": "GRN",
+  "rtv": "RTV",
+  "bookings": "Bookings",
+  "asn": "ASN",
+  "orders": "Orders",
+  "itemManagement": "Item Management",
+  "newItemListing": "New Item Listing",
+  "priceChange": "Price Change",
+  "finance": "Finance",
+  "deductions": "Deductions",
+  "contracts": "Contracts",
+  "promotions": "Promotions",
+  "promos": "Promos"
+}

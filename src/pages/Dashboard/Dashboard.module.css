@@ -1,0 +1,25 @@
+.dashboardLightModeBackground {
+  background-image: url('./../../assets/images/LightModeBackgroundForServices.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+@keyframes gradientLightAnimation {
+  0% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 50% 60%;
+  }
+  100% {
+    background-position: 030% 50%;
+  }
+}
+
+.animatedLightModeGradient {
+  background: radial-gradient(circle, #102e1b 20%, #214f2d 50%, #508768 100%);
+  animation: gradientLightAnimation 6s infinite alternate ease-in-out;
+  background-size: 200% 200%;
+}

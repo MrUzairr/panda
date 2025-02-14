@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "emitDeclarationOnly": false, // Set this to false to generate .js and .jsx files
+    "declaration": false, // Set to false if you don't need .d.ts files
+    "outDir": "./build"
+  }
+}

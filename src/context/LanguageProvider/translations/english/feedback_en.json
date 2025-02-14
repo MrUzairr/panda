@@ -1,0 +1,18 @@
+{
+  "elements": {
+    "title": "Feedback / Issue",
+    "feedbackType": "Feedback Type",
+    "description": "Description",
+    "email": "Email",
+    "reset": "Reset",
+    "submit": "Submit",
+    "feedbackSubmitted": "Feedback Form submitted successfully!",
+    "feedbackNotSubmitted": "Sorry,due to some unexpected error, please try again",
+    "validEmail": "Please enter a valid email address",
+    "validDescription": "Description must be at least 10 characters long"
+  },
+  "dropdown": {
+    "feedback": "Feedback",
+    "issue": "Issue"
+  }
+}

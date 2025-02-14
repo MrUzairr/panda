@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "heading": "مرحبًا بك في <br /> بنده كيوب",
+    "subHeading": "أفضل معًا"
+  },
+  "authItems": [
+    {
+      "name": "تسجيل الدخول",
+      "description": "شريك بنده بالفعل"
+    },
+    {
+      "name": "تسجيل",
+      "description": "قدم نفسك",
+      "url": "https://panda.com.sa/partners"
+    },
+    {
+      "name": "الدلائل",
+      "description": "جولة في كيوب"
+    }
+  ],
+  "languageDropdownItems": [
+    {
+      "name": "English",
+      "icon": "",
+      "code": "EN"
+    },
+    {
+      "name": "العربية",
+      "icon": "",
+      "code": "AR"
+    }
+  ],
+  "headerItems": [
+    {
+      "name": "الرئيسية",
+      "href": "#"
+    },
+    {
+      "name": "من نحن",
+      "href": "https://panda.com.sa/about-us"
+    },
+    {
+      "name": "الأسئلة المتكررة",
+      "href": "#",
+      "action": "openFaq"
+    },
+    {
+      "name": "التحديثات",
+      "href": "#"
+    }
+  ],
+  "quickLinks": [
+    {
+      "name": "سياسة الخصوصية",
+      "link": "https://panda.com.sa/privacy-policy"
+    },
+    {
+      "name": "الشروط والأحكام",
+      "link": "https://panda.com.sa/terms-and-conditions"
+    },
+    {
+      "name": "التحدث",
+      "link": "https://secure.ethicspoint.eu/domain/media/en/gui/106373/index.html"
+    }
+  ],
+  "footer": {
+    "copyright": "حقوق النشر والنسخ؛ {{year}} شركة بنده للتجزئة. جميع الحقوق محفوظة.",
+    "pandaEmail": "care@panda.com.sa"
+  }
+}

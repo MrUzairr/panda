@@ -1,0 +1,41 @@
+/* socialMediaAnimations.module.css */
+@keyframes bounceEffect {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  70% {
+    transform: translateX(-3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.iconWrapper {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.iconWrapper:hover {
+  animation: bounceEffect 0.8s ease-out forwards;
+}
+
+.iconWrapper:hover ~ .iconWrapper {
+  animation: pushLeft 0.8s ease-out forwards;
+}
+
+@keyframes pushLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}

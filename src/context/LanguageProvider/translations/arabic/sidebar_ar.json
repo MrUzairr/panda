@@ -1,0 +1,19 @@
+{
+  "dashboard": "لوحة التحكم",
+  "userManagement": "إدارة المستخدم",
+  "orderManagement": "إدارة الطلبات",
+  "purchaseOrders": "أوامر الشراء",
+  "grn": "GRN",
+  "rtv": "إرجاع البضاعة",
+  "bookings": "الحجوزات",
+  "asn": "إشعار الشحن المتقدم",
+  "itemManagement": "إدارة العناصر",
+  "newItemListing": "إضافة عنصر جديد",
+  "priceChange": "تغيير السعر",
+  "finance": "المالية",
+  "deductions": "الخصومات",
+  "contracts": "العقود",
+  "promotions": "العروض الترويجية",
+  "promos": "العروض",
+  "orders": "طلبات"
+}

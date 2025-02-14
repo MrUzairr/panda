@@ -1,0 +1,22 @@
+{
+  "servicesItems": {
+    "dashboard": { "name": "لوحة القيادة", "number": "٤٤" },
+    "userManagement": { "name": "إدارة المستخدم", "number": "٣٤" },
+    "purchaseOrders": { "name": "طلبات الشراء", "number": "٧٧" },
+    "grn": { "name": "إشعار استلام البضائع", "number": "٨٨" },
+    "rtv": { "name": "العودة إلى البائع", "number": "٢٣" },
+    "bookings": { "name": "الحجوزات", "number": "٥٤" },
+    "asn": { "name": "إشعار الشحن المسبق", "number": "٢٢" },
+    "newItemListing": { "name": "قائمة العناصر الجديدة", "number": "٢٣" },
+    "priceChange": { "name": "تغيير السعر", "number": "٥٢" },
+    "deductions": { "name": "الخصومات", "number": "١٢" },
+    "contracts": { "name": "العقود", "number": "٤٤" },
+    "promos": { "name": "الترقيات", "number": "٧٧" },
+    "sales": { "name": "المبيعات", "number": "٢٣" }
+  },
+
+  "welcomeText": "مرحبًا بك في بنده كيوب",
+  "subLogoLine": "أفضل معًا",
+  "latestUpdates": "آخر التحديثات",
+  "member": "عضو ذهبي"
+}

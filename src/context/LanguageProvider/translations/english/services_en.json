@@ -1,0 +1,21 @@
+{
+  "servicesItems": {
+    "dashboard": { "name": "Dashboard", "number": "43" },
+    "userManagement": { "name": "User Management", "number": "100" },
+    "purchaseOrders": { "name": "Purchase Orders", "number": "99" },
+    "grn": { "name": "Goods Receipt Note", "number": "55" },
+    "rtv": { "name": "Return to Vendor", "number": "77" },
+    "bookings": { "name": "Bookings", "number": "44" },
+    "asn": { "name": "Advance Shipping Notice", "number": "33" },
+    "newItemListing": { "name": "New Item Listing", "number": "22" },
+    "priceChange": { "name": "Price Change", "number": "50" },
+    "deductions": { "name": "Deductions", "number": "10" },
+    "contracts": { "name": "Contracts", "number": "40" },
+    "promos": { "name": "Promotions", "number": "20" },
+    "sales": { "name": "Sales", "number": "30" }
+  },
+  "welcomeText": "Welcome to Panda Cube",
+  "subLogoLine": "Better Together",
+  "latestUpdates": "Latest Updates",
+  "member": "Gold Member"
+}

@@ -1,0 +1,115 @@
+@keyframes LogoBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+}
+
+.LogoBouncing {
+  animation: LogoBounce 4s ease-in-out infinite;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.sidebarCircularArrowContainer {
+  background-color: transparent;
+  color: #e84133;
+}
+
+@keyframes gradientLightAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animatedLightModeGradient {
+  background-color: #ffffff;
+  /* background-color: #f8fff7; */
+  /* background-color: #0A4E0B; */
+  /* background: linear-gradient(-45deg, #1a5631, #004a17, #093f23, #00ff59);
+  background-size: 400% 400%;
+  animation: gradientLightAnimation 5s ease infinite; */
+}
+
+@keyframes gradientDarkAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animatedDarkModeGradient {
+  /* background: linear-gradient(-45deg, #000000, #000000, #000000, #000000); */
+  background-color: #181819;
+  background-size: 400% 400%;
+  /* animation: gradientDarkAnimation 5s ease infinite; */
+}
+
+.menuItem {
+  position: relative;
+}
+
+/* Container for sub-menu items */
+.subMenuArabic {
+  position: relative;
+  margin-right: 30px;
+  padding-right: 10px;
+  border-right: 1.5px solid #ccc;
+}
+
+.subMenuEng {
+  position: relative;
+  margin-left: 30px;
+  padding-left: 10px;
+  border-left: 1.5px solid #ccc;
+}
+
+/* Sub-menu item */
+.subMenuItemEng {
+  position: relative;
+}
+
+.subMenuItemArabic {
+  position: relative;
+}
+
+/* Line connecting sub-menu item to the vertical line */
+.subMenuItemArabic::before {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  width: 10px;
+  height: 1.5px;
+  background-color: #ccc;
+}
+
+.subMenuItemEng::before {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 10px;
+  height: 1.5px;
+  background-color: #ccc;
+}

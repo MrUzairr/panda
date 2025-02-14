@@ -1,0 +1,23 @@
+{
+  "elements": {
+    "title": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "togglePassword": "Show/Hide Password",
+    "forgotPassword": "Forgot password?",
+    "submit": "Sign In",
+    "newHere": "New Here?",
+    "createAccount": "Create New Account",
+    "rememberMe": "Remember Me"
+  },
+  "validation": {
+    "invalidEmail": "Please enter a valid email address.",
+    "invalidPassword": "Password must be at least 8 characters long."
+  },
+  "feedback": {
+    "formSubmitted": "Welcome to Panda Cube!"
+  },
+  "common": {
+    "close": "Close"
+  }
+}

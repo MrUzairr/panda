@@ -1,0 +1,40 @@
+{
+  "title": "آخر أخبارنا",
+  "cards": [
+    {
+      "id": 1,
+      "image": "/images/updatesSection/UpdatesImage1.jpg",
+      "label": "الاستدامة",
+      "date": "04 ديسمبر 2024",
+      "content": "التزامنا بالاستدامة: البيئة والمجتمع والحوكمة في شركة بنده للتجزئة"
+    },
+    {
+      "id": 2,
+      "image": "/images/updatesSection/UpdatesImage5.jpeg",
+      "label": "الشركة",
+      "date": "29 فبراير 2024",
+      "content": "توقيع اتفاقية تعاون مع حلول أوكادو"
+    },
+    {
+      "id": 3,
+      "image": "/images/updatesSection/UpdatesImage3.png",
+      "label": "تمكين",
+      "date": "16 مايو 2024",
+      "content": "إطلاق 'برج عملاء بنده' ضمن مبادرة 'اترك الباقي'"
+    },
+    {
+      "id": 4,
+      "image": "/images/updatesSection/UpdatesImage4.jpg",
+      "label": "الشركة",
+      "date": "04 ديسمبر 2024",
+      "content": "وقعت بنده وهاالا إنرجي اتفاقية بارزة لإنشاء مشروع طاقة شمسية بقدرة 3 ميجاوات في مركز التوزيع بالمنطقة الغربية لشركة بنده"
+    },
+    {
+      "id": 5,
+      "image": "/images/updatesSection/UpdatesImage2.png",
+      "label": "الشركة",
+      "date": "24 أبريل 2024",
+      "content": "حصلت بنده على شهادة 'أفضل مكان للعمل' في المملكة العربية السعودية لعام 2024"
+    }
+  ]
+}

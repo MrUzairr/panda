@@ -1,0 +1,63 @@
+@keyframes borderAnimation {
+  0% {
+    border-color: #ff0000;
+  }
+  33% {
+    border-color: #00ff00;
+  }
+  66% {
+    border-color: #0000ff;
+  }
+  100% {
+    border-color: #ff0000;
+  }
+}
+
+.animatedBorder {
+  border-width: 1px;
+  border-style: solid;
+  animation: borderAnimation 3s infinite linear;
+}
+
+@keyframes borderShadowAnimation {
+  0% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+  33% {
+    border-color: #1a5631;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  66% {
+    border-color: #1a5631;
+    box-shadow: 0 0 10px #1a5631;
+  }
+  100% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.animatedBorderShadow {
+  border-width: 0.5px;
+  border-style: solid;
+  animation: borderShadowAnimation 3s infinite linear;
+}
+
+@keyframes textColorAnimation {
+  0% {
+    color: #196524;
+  } /* Red */
+  33% {
+    color: #1a5631;
+  } /* Green */
+  66% {
+    color: #360707;
+  } /* Blue */
+  100% {
+    color: #006426;
+  } /* Back to Red */
+}
+.animatedText {
+  animation: textColorAnimation 3s infinite linear;
+}

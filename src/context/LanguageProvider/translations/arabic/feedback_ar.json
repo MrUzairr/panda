@@ -1,0 +1,17 @@
+{
+  "elements": {
+    "title": "تعليقات / مشكلة",
+    "feedbackType": "نوع التعليق",
+    "description": "الوصف",
+    "email": "البريد الإلكتروني",
+    "reset": "إعادة تعيين",
+    "submit": "إرسال",
+    "feedbackSubmitted": "تم إرسال نموذج التعليقات بنجاح!",
+    "validEmail": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "validDescription": "يجب أن يكون الوصف على الأقل ١٠ أحرف"
+  },
+  "dropdown": {
+    "feedback": "تعليقات",
+    "issue": "مشكلة"
+  }
+}

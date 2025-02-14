@@ -1,0 +1,83 @@
+@keyframes borderAnimation {
+  0% {
+    border-color: #ff0000;
+  }
+  33% {
+    border-color: #00ff00;
+  }
+  66% {
+    border-color: #0000ff;
+  }
+  100% {
+    border-color: #ff0000;
+  }
+}
+
+.animatedBorder {
+  border-width: 2px;
+  border-style: solid;
+  animation: borderAnimation 3s infinite linear;
+}
+
+@keyframes borderShadowAnimation {
+  0% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+  33% {
+    border-color: #1a5631;
+    box-shadow: 0 0 10px #00ff00;
+  }
+  66% {
+    border-color: #1a5631;
+    box-shadow: 0 0 10px #1a5631;
+  }
+  100% {
+    border-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+  }
+}
+
+.animatedBorderShadow {
+  border-width: 1.5px;
+  border-style: solid;
+  border-radius: 12px;
+  animation: borderShadowAnimation 3s infinite linear;
+}
+
+@keyframes textColorAnimation {
+  0% {
+    color: #ff0000;
+  } /* Red */
+  33% {
+    color: #1a5631;
+  } /* Green */
+  66% {
+    color: #000000;
+  } /* Blue */
+  100% {
+    color: #006426;
+  } /* Back to Red */
+}
+.animatedText {
+  animation: textColorAnimation 3s infinite linear;
+}
+
+@keyframes UpdatesCardsBorderShadowAnimation {
+  0% {
+    border-color: #ff0000;
+    box-shadow: 0 0 1px #ff0000;
+  }
+  33% {
+    border-color: #1a5631;
+    box-shadow: 0 0 1px #1a5631;
+  }
+  66% {
+    border-color: #11440b;
+    box-shadow: 0 0 1px #11440b;
+  }
+  100% {
+    border-color: #1a5631;
+    box-shadow: 0 0 1px #1a5631;
+  }
+}

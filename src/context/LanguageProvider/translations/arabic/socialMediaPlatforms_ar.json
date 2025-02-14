@@ -1,0 +1,48 @@
+{
+  "socialMediaPlatforms": [
+    {
+      "name": {
+        "en": "instagram",
+        "ar": "إنستغرام"
+      },
+      "link": "https://www.instagram.com/pandasaudi/",
+      "alt": {
+        "en": "Click here to navigate to our Instagram account",
+        "ar": "انقر هنا للانتقال إلى حسابنا على إنستغرام"
+      }
+    },
+    {
+      "name": {
+        "en": "linkedin",
+        "ar": "لينكد إن"
+      },
+      "link": "https://www.linkedin.com/company/azizia-panda-united-savola-group/",
+      "alt": {
+        "en": "Click here to navigate to our LinkedIn account",
+        "ar": "انقر هنا للانتقال إلى حسابنا على لينكد إن"
+      }
+    },
+    {
+      "name": {
+        "en": "facebook",
+        "ar": "فيسبوك"
+      },
+      "link": "https://www.facebook.com/PandaSaudi",
+      "alt": {
+        "en": "Click here to navigate to our Facebook account",
+        "ar": "انقر هنا للانتقال إلى حسابنا على فيسبوك"
+      }
+    },
+    {
+      "name": {
+        "en": "twitter",
+        "ar": "تويتر"
+      },
+      "link": "https://www.twitter.com/pandasaudi",
+      "alt": {
+        "en": "Click here to navigate to our Twitter (X) account",
+        "ar": "انقر هنا للانتقال إلى حسابنا على تويتر (إكس)"
+      }
+    }
+  ]
+}

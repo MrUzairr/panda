@@ -1,0 +1,19 @@
+.searchInputFields {
+  border-radius: 50px 50px 50px 50px;
+  border: 1px solid #bbe6cb;
+
+  cursor: pointer;
+}
+
+.searchInputFields:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.searchControlButtons {
+  border-radius: 50px 50px 50px 50px;
+}
+
+.arabicSearchInputFields::placeholder {
+  font-size: 11px;
+}

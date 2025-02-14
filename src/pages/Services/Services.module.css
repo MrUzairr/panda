@@ -1,0 +1,169 @@
+.servicesLightModeBackground {
+  background-image: url('./../../assets/images/ServicesAssets/LightModeBackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.servicesDarkModeBackground {
+  /* background-image: url('./../../assets/images/ServicesAssets/DarkModeBackgroundImage.png'); */
+  /* background-image: url('./../../assets/images/ServicesAssets/DarkModeServicesMainPagesImage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; */
+  background-color: #1e1e1e;
+}
+
+/* Define the bounce animation */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px); /* Moves the element up a little */
+  }
+  60% {
+    transform: translateY(-2px); /* Moves the element up a little less */
+  }
+}
+
+.bouncing {
+  animation: bounce 2s infinite; /* Infinite bounce with a 2s duration */
+}
+
+/* Add 3D perspective to the container */
+@keyframes rotate360 {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Bounce keyframe */
+@keyframes LogoBounce {
+  0%,
+  100% {
+    transform: translateY(0); /* Start and end at normal position */
+  }
+  25% {
+    transform: translateY(-5px); /* Move up a bit */
+  }
+  50% {
+    transform: translateY(0); /* Return to normal */
+  }
+  75% {
+    transform: translateY(-5px); /* Move up a little less */
+  }
+}
+
+/* 360 Rotation and bounce effect */
+@keyframes rotateAndBounce {
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+  25% {
+    transform: rotateY(90deg) translateY(-10px);
+  }
+  50% {
+    transform: rotateY(180deg) translateY(0);
+  }
+  75% {
+    transform: rotateY(270deg) translateY(-5px);
+  }
+  100% {
+    transform: rotateY(360deg) translateY(0);
+  }
+}
+
+/* Apply 3D effect and bounce to logo */
+.LogoBouncing {
+  animation: LogoBounce 4s ease-in-out infinite;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.socialMediaIcon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 0.5rem;
+  display: flex;
+  width: 170px;
+  justify-content: flex-end;
+
+  padding: 0.75rem 0.25rem;
+  color: white;
+  border-radius: 20px 10px 0px 20px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.socialMediaIconArabic {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 0.5rem;
+  display: flex;
+  width: 170px;
+  justify-content: flex-start;
+
+  padding: 0.75rem 0.25rem;
+  color: white;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media (min-width: 1024px) {
+  .socialMediaIcon {
+    box-shadow: none;
+    background-color: transparent;
+    padding-right: 1.25rem;
+    width: 200px;
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animatedGradient {
+  background: linear-gradient(-45deg, #292828, #2b2a29, #000000, #2f2d2e);
+  background-size: 400% 400%;
+  animation: gradientAnimation 5s ease infinite;
+}
+
+@keyframes textColorAnimation {
+  0% {
+    color: #00ff26;
+  } /* Red */
+  33% {
+    color: #6cc500;
+  } /* Green */
+  66% {
+    color: #77ff38;
+  } /* Blue */
+  100% {
+    color: #00b545;
+  } /* Back to Red */
+}
+.animatedServicesWelcomeText {
+  animation: textColorAnimation 5s infinite linear;
+}

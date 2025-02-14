@@ -1,0 +1,40 @@
+{
+  "title": "Our Latest News",
+  "cards": [
+    {
+      "id": 1,
+      "image": "/images/updatesSection/UpdatesImage1.jpg",
+      "label": "Sustainability",
+      "date": "04 December 2024",
+      "content": "Our Commitment to Sustainability: ESG at Panda Retail Company"
+    },
+    {
+      "id": 2,
+      "image": "/images/updatesSection/UpdatesImage5.jpeg",
+      "label": "Corporate",
+      "date": "29 February 2024",
+      "content": "Signing of Collaborative Agreement with Ocado Solutions"
+    },
+    {
+      "id": 3,
+      "image": "/images/updatesSection/UpdatesImage3.png",
+      "label": "Empowering",
+      "date": "16 May 2024",
+      "content": "Launch of 'Panda Customers Tower' under 'Leave The Change' Initiative"
+    },
+    {
+      "id": 4,
+      "image": "/images/updatesSection/UpdatesImage4.jpg",
+      "label": "Corporate",
+      "date": "04 December 2024",
+      "content": "Panda and HAALA Energy Sign a Landmark Agreement to Build a 3 MWp Rooftop Solar Project at Panda’s Western Region Distribution Center"
+    },
+    {
+      "id": 5,
+      "image": "/images/updatesSection/UpdatesImage2.png",
+      "label": "Corporate",
+      "date": "24 April 2024",
+      "content": "Panda Certified as 'Best Place to Work' in Saudi Arabia 2024"
+    }
+  ]
+}

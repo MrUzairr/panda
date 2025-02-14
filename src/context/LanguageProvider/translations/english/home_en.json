@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "heading": "Welcome to <br /> Panda Cube",
+    "subHeading": "Better Together"
+  },
+  "authItems": [
+    {
+      "name": "Sign In",
+      "description": "Already Panda Partner"
+    },
+    {
+      "name": "Register",
+      "description": "Introduce yourself",
+      "url": "https://panda.com.sa/partners"
+    },
+    {
+      "name": "Guides",
+      "description": "Cube Tour"
+    }
+  ],
+  "languageDropdownItems": [
+    {
+      "name": "English",
+      "icon": "",
+      "code": "EN"
+    },
+    {
+      "name": "العربية",
+      "icon": "",
+      "code": "AR"
+    }
+  ],
+  "headerItems": [
+    {
+      "name": "HOME",
+      "href": "#"
+    },
+    {
+      "name": "ABOUT US",
+      "href": "https://panda.com.sa/about-us"
+    },
+    {
+      "name": "FAQS",
+      "href": "#",
+      "action": "openFaq"
+    },
+    {
+      "name": "UPDATES",
+      "href": "#"
+    }
+  ],
+  "quickLinks": [
+    {
+      "name": "Privacy Policy",
+      "link": "https://panda.com.sa/privacy-policy"
+    },
+    {
+      "name": "Terms & Condition",
+      "link": "https://panda.com.sa/terms-and-conditions"
+    },
+    {
+      "name": "Speak Up",
+      "link": "https://secure.ethicspoint.eu/domain/media/en/gui/106373/index.html"
+    }
+  ],
+  "footer": {
+    "copyright": "Copyright &copy; {{year}} Panda Retail Company. All rights reserved.",
+    "pandaEmail": "care@panda.com.sa"
+  }
+}

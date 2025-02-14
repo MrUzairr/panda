@@ -1,0 +1,20 @@
+{
+  "order": "Order",
+  "orderFieldPlaceHolder": "Select Order",
+  "location": "Location",
+  "locationFieldPlaceHolder": "Select Location",
+  "city": "City",
+  "cityFieldPlaceHolder": "Select City",
+  "poType": "PO Type",
+  "poTypeFieldPlaceholder": "Select PO Type",
+  "select": "Select",
+  "orderStart": "Order Start",
+  "orderEnd": "Order End",
+  "notAfterDate": "Not After Date",
+  "sku": "SKU",
+  "skuFieldPlaceHolder": "Select SKU",
+  "valuesInSar": "Values in SAR",
+  "valuesInSarFieldPlaceholder": "Enter Values in SAR",
+  "searchButton": "Search",
+  "resetButton": "Reset"
+}

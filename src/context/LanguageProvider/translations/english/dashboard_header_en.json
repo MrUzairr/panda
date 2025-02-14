@@ -1,0 +1,75 @@
+{
+  "dropdown": {
+    "new": ["All", "Today", "Last 7 Days"],
+    "closed": [
+      "All Closed",
+      "Expired",
+      "Cancelled",
+      "Partial Delivered",
+      "Fully Delivered"
+    ]
+  },
+
+  "NewOrders": {
+    "allOrders": {
+      "title": "All Orders",
+      "description": "Total number of orders placed."
+    },
+    "todayOrders": {
+      "title": "Today Orders",
+      "description": "Orders placed within the last 24 hours."
+    },
+    "last7DaysOrders": {
+      "title": "Last7 Days Orders",
+      "description": "Orders placed in the past week."
+    }
+  },
+  "NearExpiryOrders": {
+    "allExpiryOrders": {
+      "title": "All Expiry Orders",
+      "description": "Total number of orders placed."
+    },
+    "expiringToday": {
+      "title": "Expiring Today",
+      "description": "Orders that will expire by the end of today."
+    },
+    "expiringTomorrow": {
+      "title": "Expiring Tomorrow",
+      "description": "Orders that will expire by the end of tomorrow."
+    },
+    "expiringIn7Days": {
+      "title": "Expiring In 7 Days",
+      "description": "Orders that will expire within the next 7 days."
+    }
+  },
+  "ClosedOrders": {
+    "allClosedOrders": {
+      "title": "All Closed Orders",
+      "description": "Total number of closed orders."
+    },
+    "closedToday": {
+      "title": "Closed Today",
+      "description": "Orders that were closed within the last 24 hours."
+    },
+    "closedYesterday": {
+      "title": "Closed Yesterday",
+      "description": "Orders that were closed yesterday."
+    },
+    "closedLast7Days": {
+      "title": "Closed Last 7 Days",
+      "description": "Orders that were closed within the past week."
+    },
+    "olderClosedOrders": {
+      "title": "Older Closed Orders",
+      "description": "Orders closed more than 7 days ago."
+    }
+  },
+  "seen": "Seen",
+  "nearExpiry": "Near Expiry",
+  "closed": "Closed",
+  "search": "Search",
+  "all": "ALL",
+  "store": "STORE",
+  "dc": "DC",
+  "new": "New"
+}

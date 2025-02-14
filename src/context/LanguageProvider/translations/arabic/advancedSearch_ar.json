@@ -1,0 +1,20 @@
+{
+  "order": "طلب",
+  "orderFieldPlaceHolder": "اختر الطلب",
+  "location": "الموقع",
+  "locationFieldPlaceHolder": "اختر الموقع",
+  "city": "المدينة",
+  "cityFieldPlaceHolder": "اختر المدينة",
+  "select": "يختار",
+  "poType": "نوع أمر الشراء",
+  "poTypeFieldPlaceholder": "اختر نوع أمر الشراء",
+  "orderStart": "بداية الطلب",
+  "orderEnd": "نهاية الطلب",
+  "notAfterDate": "ليس بعد هذا التاريخ",
+  "sku": "رمز التخزين التعريفي",
+  "skuFieldPlaceHolder": "اختر رمز التخزين التعريفي",
+  "valuesInSar": "القيم بالريال السعودي",
+  "valuesInSarFieldPlaceholder": "أدخل القيم بالريال السعودي",
+  "searchButton": "بحث",
+  "resetButton": "إعادة تعيين"
+}

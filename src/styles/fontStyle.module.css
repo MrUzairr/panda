@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'PandaBold';
+  src: url('./../assets/fonts/Panda_beta_3-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'PandaRegular';
+  src: url('./../assets/fonts/Panda_beta_3-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PandaLight';
+  src: url('./../assets/fonts/Panda_beta_3-Light.otf') format('opentype');
+  font-weight: 300;
+}
+
+.boldText {
+  font-family: 'PandaBold', sans-serif;
+}
+
+.regularText {
+  font-family: 'PandaRegular', sans-serif;
+}
+
+.lightText {
+  font-family: 'PandaLight', sans-serif;
+}
